@@ -77,6 +77,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
+		
+		<dependency>
+    		<groupId>biz.paluch.redis</groupId>
+    		<artifactId>lettuce</artifactId>
+    		<version>3.2.Final</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
